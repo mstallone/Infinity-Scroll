@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailedViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UINavigationBarDelegate, UIPageViewControllerDataSource, UIPageViewControllerDelegate, DetailedDelegate> {
+    UINavigationBar *navigationBar;
+    UINavigationItem *navigationItem;
+    UIBarButtonItem *todayBarButtonItem;
+    
+    UIView *contentView;
+    UIPageViewController *pageViewController;
+    
+    NSDate *date;
+}
 
 @end
-

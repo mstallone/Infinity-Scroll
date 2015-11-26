@@ -13,6 +13,7 @@
 		345327011C06496100622334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345326FF1C06496100622334 /* Main.storyboard */; };
 		345327031C06496100622334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345327021C06496100622334 /* Assets.xcassets */; };
 		345327061C06496100622334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345327041C06496100622334 /* LaunchScreen.storyboard */; };
+		346303731C06B504001D63B8 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346303721C06B504001D63B8 /* DetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		345327021C06496100622334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345327051C06496100622334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		345327071C06496100622334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346303711C06B504001D63B8 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		346303721C06B504001D63B8 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				345326FA1C06496100622334 /* AppDelegate.m */,
 				345326FC1C06496100622334 /* ViewController.h */,
 				345326FD1C06496100622334 /* ViewController.m */,
+				346303711C06B504001D63B8 /* DetailedViewController.h */,
+				346303721C06B504001D63B8 /* DetailedViewController.m */,
 				345326FF1C06496100622334 /* Main.storyboard */,
 				345327021C06496100622334 /* Assets.xcassets */,
 				345327041C06496100622334 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				345326FE1C06496100622334 /* ViewController.m in Sources */,
 				345326FB1C06496100622334 /* AppDelegate.m in Sources */,
+				346303731C06B504001D63B8 /* DetailedViewController.m in Sources */,
 				345326F81C06496100622334 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Infinity Scroll/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewstallone.Infinity-Scroll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Infinity Scroll/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.matthewstallone.Infinity-Scroll";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +308,7 @@
 				3453270C1C06496100622334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
